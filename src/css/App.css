@@ -1,0 +1,16 @@
+/* Colors retrieved from https://www.color-hex.com/color-palette/35848 */
+.App p {
+  color: #05377b;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#010b19, #021631);
+}
+
+html {
+  padding: 0;
+}
+
+/*# sourceMappingURL=App.css.map */

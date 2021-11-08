@@ -1,0 +1,23 @@
+/* Colors retrieved from https://www.color-hex.com/color-palette/35848 */
+
+$theme-dark: #010b19;
+$theme-medium-dark: #021631;
+$theme-medium: #03214a;
+$theme-medium-light: #042c62;
+$theme-light: #05377b;
+
+.App {
+  p {
+    color: $theme-light;
+  }
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient($theme-dark, $theme-medium-dark);
+}
+
+html {
+  padding: 0;
+}
