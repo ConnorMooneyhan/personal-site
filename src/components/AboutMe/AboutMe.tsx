@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <>
+    <section>
       <h2>About Me</h2>
       <p>
         My passion lies in solving meaningful problems and communicating those solutions to others. This has manifested itself in various areas of interest over the years such as research mathematics, teaching, and now programming, but the core interest has stayed steady and my proficiency has grown through that process.
@@ -11,7 +11,7 @@ const AboutMe = () => {
       <p>
         This new pursuit of mine has been incredibly rewarding and interesting thus far, and I am thrilled to continue absorbing new concepts and cultivating my skills as a web developer as I find my way to my first job in the field.
       </p>
-    </>
+    </section>
   )
 }
 
