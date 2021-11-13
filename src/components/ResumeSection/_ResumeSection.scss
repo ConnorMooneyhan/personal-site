@@ -1,0 +1,84 @@
+.Resume {
+  width: 8.5in; height: 11in;
+  display: flex;
+  font-size: 14px;
+  /*Roboto, Lato, PT Sans, Arimo*/
+  font-family: "Arimo", sans-serif;
+  line-height: 1.1;
+  box-shadow: 2px 1px 8px black;
+  margin: 0 auto;
+  text-align: left;
+
+  & h1 {
+    font-size: 28px;
+  }
+
+  .Resume__sidebar {
+    background: linear-gradient(hsl(208, 100%, 23%), hsl(208, 100%, 18%));
+    color: white;
+    padding: 0 1rem;
+    width: 200px;
+    word-break: keep-all;
+
+    & * {
+      margin: .7em 0;
+    }
+    
+    & .Resume__sidebar__subtitle {
+      font-weight: 400;
+    }
+    
+    & h2:not(.Resume__sidebar__subtitle) {
+      background-color: hsl(208, 100%, 13%);
+      padding: .25em 1rem;
+      margin: 0 -1rem;
+    }
+    
+    & h3 {
+      margin-bottom: 0;
+    }
+    
+    & h3 + p {
+      margin-top: .1em;
+    }
+  }  
+  
+  .Resume__primary {
+    padding-left: 1em;
+
+    .Resume__primary__section {
+      display: flex;
+      flex-direction: column;
+
+      .Resume__primary__section__title {
+        color:hsl(208, 100%, 18%);
+        border: 1px solid lightgrey;
+        border-width: 1px 0;
+        padding: .2em 0;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      .Resume__primary__section__item {
+        display: flex;
+
+        & h4 {
+          font-weight: 400;
+        }
+        
+        & * {
+          margin: .35em 0;
+        }
+        
+        & :nth-child(1) {
+          flex: 0 0 130px;
+        }
+        
+        .Resume__primary__section__item__content ul {
+          padding-left: 1em;
+        }
+      }
+    }    
+  }
+}
+  

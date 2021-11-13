@@ -2,7 +2,7 @@ import "./css/App.css";
 
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Resume from "./components/Resume/Resume";
+import ResumeSection from "./components/ResumeSection/ResumeSection";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <main>
         <AboutMe />
-        <Resume />
+        <ResumeSection />
       </main>
       <Footer />
     </div>
