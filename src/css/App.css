@@ -14,6 +14,10 @@
   list-style: none;
   padding-left: 0;
 }
+.Footer__contact-info li {
+  display: inline-block;
+  padding: 0.2em;
+}
 
 .Resume {
   width: 8.5in;
