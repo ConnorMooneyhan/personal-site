@@ -42,6 +42,9 @@
   display: inline-block;
   padding: 0.2em;
 }
+.Footer__contact-info li a > * {
+  font-size: 27px;
+}
 
 .Resume {
   width: 8.5in;
@@ -117,11 +120,14 @@
   font-family: "Mohave", sans-serif;
   text-align: center;
   padding: 0 2em;
+  max-width: 50em;
+  margin: 1em auto;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px black;
 }
 
 body {
   margin: 0;
-  height: 100vh;
 }
 
 html {
