@@ -2,6 +2,7 @@ import "./css/App.css";
 
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Resume from "./components/Resume/Resume";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -10,11 +11,7 @@ function App() {
       <Header />
       <main>
         <AboutMe />
-        <h2>Resume</h2>
-        <p>
-          You can download my{" "}
-          <a href="./resources/resume-mooneyhan.pdf">resume</a> as a pdf here
-        </p>
+        <Resume />
       </main>
       <Footer />
     </div>
