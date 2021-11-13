@@ -1,7 +1,11 @@
 .App {
-  color: #2eccb0;
   font-family: "Mohave", sans-serif;
   text-align: center;
+  padding: 0 2em;
+}
+
+.Header img {
+  border-radius: 50%;
 }
 
 .Header__h1 {
@@ -11,7 +15,6 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(#010b19, #021631);
 }
 
 html {
