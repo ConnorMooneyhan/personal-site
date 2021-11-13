@@ -1,16 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./css/App.css";
-import me from "./resources/me.jpg";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App" style={{ height: window.innerHeight }}>
-      <header className="Header">
-        <img src={me} alt="me" width="100" />
-        <h1 className="Header__h1">Connor Mooneyhan</h1>
-      </header>
+      <Header />
       <main>
         <h2>About Me</h2>
         <p>
@@ -36,7 +34,7 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
@@ -45,12 +43,12 @@ function App() {
               target="_blank"
               rel="noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} /> GitHub
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
             <a href="mailto:connmoo@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} /> connmoo@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </li>
         </ul>
