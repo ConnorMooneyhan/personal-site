@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App" style={{ height: window.innerHeight }}>
+    <div className="App" style={{ minHeight: window.innerHeight }}>
       <Header />
       <main>
         <AboutMe />
