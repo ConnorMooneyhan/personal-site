@@ -1,11 +1,11 @@
 .Header {
   padding-top: 1em;
-}
-
-.Header img {
-  border-radius: 50%;
-}
-
-.Header__h1 {
-  font-weight: 400;
+  
+  & img {
+    border-radius: 50%;
+  }
+  
+  .Header__h1 {
+    font-weight: 400;
+  }
 }
