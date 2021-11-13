@@ -1,18 +1,13 @@
 @use "./theme" as *;
 @use "./components/Header/Header";
 @use "./components/AboutMe/AboutMe";
+@use "./components/Footer/Footer";
 
 .App {
   // color: $text-light;
   font-family: $font-main;
   text-align: center;
   padding: 0 2em;
-}
-
-// ul with social media and email links
-.Footer__contact-info {
-  list-style: none;
-  padding-left: 0;
 }
 
 body {
