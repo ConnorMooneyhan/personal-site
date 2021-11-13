@@ -1,11 +1,42 @@
 .Header {
   padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
-  & img {
-    border-radius: 50%;
+  .img-container {
+    flex: 1;
+    text-align: left;
+    vertical-align: middle;
+    display: flex;
+    img {
+      border-radius: 50%;
+      align-self: center;
+    }
   }
   
-  .Header__h1 {
+  h1 {
     font-weight: 400;
+    margin: auto;
   }
+
+  nav {
+    flex: 1;
+    text-align: right;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      
+      li {
+        display: inline-block;
+        padding: 0 5px;
+        
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
 }

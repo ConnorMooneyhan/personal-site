@@ -3,7 +3,7 @@ import Resume from './Resume';
 
 const ResumeSection = () => {
   return (
-    <section className="Resume-Section">
+    <section className="Resume-Section" id="resume">
       <h2>Resume</h2>
       <Resume />
       <p>

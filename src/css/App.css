@@ -1,11 +1,37 @@
 .Header {
   padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.Header img {
+.Header .img-container {
+  flex: 1;
+  text-align: left;
+  vertical-align: middle;
+  display: flex;
+}
+.Header .img-container img {
   border-radius: 50%;
+  align-self: center;
 }
-.Header .Header__h1 {
+.Header h1 {
   font-weight: 400;
+  margin: auto;
+}
+.Header nav {
+  flex: 1;
+  text-align: right;
+}
+.Header nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+.Header nav ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.Header nav ul li a {
+  text-decoration: none;
 }
 
 .Footer__contact-info {
