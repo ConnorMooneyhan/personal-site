@@ -11,8 +11,11 @@ const Footer = () => {
             href="https://www.linkedin.com/in/ConnorMooneyhan"
             target="_blank"
             rel="noreferrer"
+            data-tooltip="LinkedIn"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon 
+              icon={faLinkedin}
+            />
           </a>
         </li>
         <li>
@@ -20,13 +23,21 @@ const Footer = () => {
             href="https://github.com/ConnorMooneyhan"
             target="_blank"
             rel="noreferrer"
+            data-tooltip="GitHub" 
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon 
+              icon={faGithub} 
+            />
           </a>
         </li>
         <li>
-          <a href="mailto:connmoo@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} />
+          <a 
+            href="mailto:connmoo@gmail.com"
+            data-tooltip="connmoo@gmail.com"
+          >
+            <FontAwesomeIcon 
+              icon={faEnvelope}  
+            />
           </a>
         </li>
       </ul>

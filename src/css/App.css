@@ -41,6 +41,18 @@
 .Footer__contact-info li {
   display: inline-block;
   padding: 0.2em;
+  position: relative;
+}
+.Footer__contact-info li a:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  font-size: 14px;
+  padding: 0 0.2em;
+  top: -1em;
+  right: calc(100% - 29px);
+  width: max-content;
+  color: black;
+  background: transparent;
 }
 .Footer__contact-info li a > * {
   font-size: 27px;
