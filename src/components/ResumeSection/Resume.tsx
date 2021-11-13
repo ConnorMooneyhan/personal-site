@@ -104,7 +104,7 @@ const Resume = () => {
             <div className="Resume__primary__section__item__content">
               <h3>Pong</h3>
               <h4><em>https://github.com/ConnorMooneyhan/pong</em></h4>
-              <p>Utilizes the Canvas API to implement a classNameic game of Pong in the browser.</p>
+              <p>Utilizes the Canvas API to implement a classic game of Pong in the browser.</p>
             </div>
           </div>
           <div className="Resume__primary__section__item">
