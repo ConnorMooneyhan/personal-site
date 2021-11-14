@@ -18,6 +18,10 @@
   font-weight: 400;
   margin: auto;
 }
+.Header h1 * {
+  text-decoration: none;
+  color: black;
+}
 .Header nav {
   flex: 1;
   text-align: right;
@@ -66,8 +70,8 @@
   }
 }
 .Resume {
-  width: 8.5in;
-  height: 11in;
+  max-width: 8.5in;
+  min-height: 11in;
   display: flex;
   font-size: 14px;
   /*Roboto, Lato, PT Sans, Arimo*/
@@ -140,9 +144,14 @@
   text-align: center;
   padding: 0 2em;
   max-width: 50em;
-  margin: 1em auto;
+  margin: 15px auto;
   border-radius: 5px;
   box-shadow: 1px 2px 5px black;
+  display: flex;
+  flex-direction: column;
+}
+.App main {
+  flex: 1;
 }
 
 body {

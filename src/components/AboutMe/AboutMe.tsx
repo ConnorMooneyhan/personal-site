@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section id="about-me">
+    <section className="about-me">
       <h2>About Me</h2>
       <p>
         My passion lies in solving meaningful problems and communicating those solutions to others. This has manifested itself in various areas of interest over the years such as research mathematics, teaching, and now programming, but the core interest has stayed steady and my proficiency has grown through that process.

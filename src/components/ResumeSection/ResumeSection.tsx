@@ -2,12 +2,15 @@ import '../../resources/resume-mooneyhan.pdf';
 import Resume from './Resume';
 
 const ResumeSection = () => {
+  const resumeFits = window.innerWidth > 650;
+  
   return (
     <section className="Resume-Section" id="resume">
       <h2>Resume</h2>
-      <Resume />
+      {resumeFits && <Resume />}
+      {!resumeFits && <h3 style={{color: 'darkred'}}>Unable to fit resume on screen.</h3> }
       <p>
-        You can also <a href="../../resources/resume-mooneyhan.pdf" download>download my resume</a> as a pdf if you prefer.
+        You can also <a href="../../resources/resume-mooneyhan.pdf" download>download my resume</a> as a pdf.
       </p>
     </section>
   );
