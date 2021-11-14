@@ -54,7 +54,7 @@
   color: black;
   opacity: 0;
   background: transparent;
-  animation: fade-in 100ms linear forwards;
+  animation: fade-in 50ms linear forwards;
 }
 .Footer__contact-info li a > * {
   font-size: 27px;
