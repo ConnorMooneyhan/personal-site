@@ -52,12 +52,19 @@
   right: calc(100% - 29px);
   width: max-content;
   color: black;
+  opacity: 0;
   background: transparent;
+  animation: fade-in 100ms linear forwards;
 }
 .Footer__contact-info li a > * {
   font-size: 27px;
 }
 
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
 .Resume {
   width: 8.5in;
   height: 11in;
