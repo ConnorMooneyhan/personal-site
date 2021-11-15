@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/*" element={<h2>This is the home page.</h2>} />
+          <Route path="/*" element={<AboutMe />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/resume" element={<ResumeSection />} />
           <Route path="/pong" element={<Pong />} />
