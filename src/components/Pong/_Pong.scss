@@ -1,0 +1,12 @@
+#myCanvas { 
+  background: black;
+}
+
+.player-input {
+  position: absolute;
+  left: calc(50% + 5px);
+  background-color: hsla(0, 0%, 100%, 0);
+  color: hsl(0, 0%, 80%);
+  border: none;
+  border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+}

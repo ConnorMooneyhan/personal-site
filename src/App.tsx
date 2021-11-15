@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Header from "./components/Header/Header";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ResumeSection from "./components/ResumeSection/ResumeSection";
-import Pong from './components/Pong/Pong.js';
+import Pong from './components/Pong/Pong';
 import Footer from "./components/Footer/Footer";
 
 function App() {

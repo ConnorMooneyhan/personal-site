@@ -139,6 +139,19 @@
   padding-left: 1em;
 }
 
+#myCanvas {
+  background: black;
+}
+
+.player-input {
+  position: absolute;
+  left: calc(50% + 5px);
+  background-color: rgba(255, 255, 255, 0);
+  color: #cccccc;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+
 .App {
   font-family: "Mohave", sans-serif;
   text-align: center;
@@ -152,6 +165,7 @@
 }
 .App main {
   flex: 1;
+  position: relative;
 }
 
 body {

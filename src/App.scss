@@ -3,6 +3,7 @@
 @use "./components/AboutMe/AboutMe";
 @use "./components/Footer/Footer";
 @use "./components/ResumeSection/ResumeSection";
+@use "./components/Pong/Pong";
 
 .App {
   // color: $text-light;
@@ -18,6 +19,7 @@
 
   main {
     flex: 1;
+    position: relative;
   }
 }
 
