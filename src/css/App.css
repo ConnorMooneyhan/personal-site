@@ -100,14 +100,15 @@ h2 {
   background: linear-gradient(#003f75, #00315c);
   color: white;
   padding: 0 1rem;
-  width: 200px;
-  word-break: keep-all;
+  min-width: 200px;
+  word-break: break-word;
 }
 .Resume .Resume__sidebar * {
   margin: 0.7em 0;
 }
 .Resume .Resume__sidebar .Resume__sidebar__subtitle {
   font-weight: 400;
+  text-align: left;
 }
 .Resume .Resume__sidebar h2:not(.Resume__sidebar__subtitle) {
   background-color: #002342;
