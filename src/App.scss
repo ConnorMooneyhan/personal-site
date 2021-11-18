@@ -4,22 +4,25 @@
 @use "./components/Footer/Footer";
 @use "./components/ResumeSection/ResumeSection";
 @use "./components/Pong/Pong";
+@use "./components/Home/Home";
+
+$main-width: 60ch;
 
 .App {
-  // color: $text-light;
+  color: whitesmoke;
   font-family: $font-main;
-  text-align: center;
-  padding: 0 2em;
-  max-width: 50em;
-  margin: 15px auto;
-  border-radius: 5px;
-  box-shadow: 1px 2px 5px black;
+  padding: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-
+  background: #021631;
+  line-height: 1.6;
+  
   main {
     flex: 1;
     position: relative;
+    max-width: 8.5in;
+    margin: auto;
   }
 }
 

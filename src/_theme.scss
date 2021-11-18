@@ -1,26 +1,8 @@
 // Colors
 
-// Each bg color pairs with its opposite text color
-// e.g. bg-dark uses text-light as its corresponding text color
-
-// bg
-// retrieved from https://www.color-hex.com/color-palette/35848
-$bg-dark: #010b19;
-$bg-medium-dark: #021631;
-$bg-medium: #03214a;
-$bg-medium-light: #042c62;
-$bg-light: #05377b;
-
-// text
-// generated with Color Safe (https://www.colorsafe.co)
-$text-light: #2eccb0;
-$text-medium-light: #a2ded0;
-$text-medium: #c8f7c5;
-$text-medium-dark: #3cf73c;
-$text-dark: #7ed07e;
-
-
-
-// Miscellaneous
+$text-color: whitesmoke;
+$bg-color: #021631;
+$accent-color-1: #00a9b4;
+$accent-color-2: #71facb;
 
 $font-main: 'Mohave', sans-serif;

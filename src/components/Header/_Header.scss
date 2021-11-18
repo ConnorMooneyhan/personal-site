@@ -1,26 +1,23 @@
 .Header {
-  padding-top: 1em;
+  padding: 1em 1em 0 1em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   
   .img-container {
     flex: 1;
-    text-align: left;
-    vertical-align: middle;
     display: flex;
     img {
       border-radius: 50%;
-      align-self: center;
     }
   }
   
   h1 {
+    flex-grow: 0;
     font-weight: 400;
-    margin: auto;
-    * {
+    & > * {
       text-decoration: none;
-      color: black;
+      color: whitesmoke;
     }
   }
 

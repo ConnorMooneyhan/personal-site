@@ -2,13 +2,13 @@
   max-width: 8.5in; min-height: 11in;
   display: flex;
   font-size: 14px;
-  /*Roboto, Lato, PT Sans, Arimo*/
+  color: black;
+  background: white;
   font-family: "Arimo", sans-serif;
   line-height: 1.1;
   box-shadow: 2px 1px 8px black;
   margin: 0 auto;
   text-align: left;
-
   & h1 {
     font-size: 28px;
   }
@@ -81,4 +81,7 @@
     }    
   }
 }
-  
+
+.Resume~p {
+  text-align: center;
+}
