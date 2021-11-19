@@ -153,9 +153,15 @@ h2 {
 .Resume .Resume__primary .Resume__primary__section .Resume__primary__section__item .Resume__primary__section__item__content ul {
   padding-left: 1em;
 }
-
 .Resume ~ p {
   text-align: center;
+}
+.Resume ~ p a {
+  color: #00a9b4;
+}
+.Resume ~ p a:active,
+.Resume ~ p a:visited {
+  color: #cc00cc;
 }
 
 #myCanvas {

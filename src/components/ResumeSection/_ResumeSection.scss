@@ -1,3 +1,5 @@
+@use "../../theme" as *;
+
 .Resume {
   max-width: 8.5in; min-height: 11in;
   display: flex;
@@ -81,8 +83,17 @@
       }
     }    
   }
-}
+  
+  &~p {
+    text-align: center;
 
-.Resume~p {
-  text-align: center;
+    a {
+      color: $accent-color-1;
+    }
+
+    a:active,
+    a:visited {
+      color: hsl(300, 100%, 40%);
+    }
+  }
 }
