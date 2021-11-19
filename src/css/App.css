@@ -137,6 +137,7 @@ h2 {
   padding: 0.2em 0;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: left;
 }
 .Resume .Resume__primary .Resume__primary__section .Resume__primary__section__item {
   display: flex;
