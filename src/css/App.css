@@ -29,10 +29,12 @@
 }
 .Header nav ul li {
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 1em;
 }
 .Header nav ul li a {
   text-decoration: none;
+  color: inherit;
+  font-size: 24px;
 }
 
 h2 {
