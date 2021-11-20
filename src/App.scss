@@ -23,6 +23,10 @@ $main-width: 60ch;
     position: relative;
     max-width: 8.5in;
     margin: auto;
+
+    @media (orientation: portrait) {
+      padding: 0 1em;
+    }
   }
 }
 
