@@ -2,6 +2,7 @@ import '../../resources/resume-mooneyhan.pdf';
 import Resume from './Resume';
 
 const ResumeSection = () => {
+  // Check whether resume will fit in screen with current dimensions
   const resumeFits = window.innerWidth > 650;
   
   return (
