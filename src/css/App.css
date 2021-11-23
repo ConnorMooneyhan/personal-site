@@ -195,6 +195,14 @@ h2 {
   border-bottom: 1px solid #999999;
 }
 
+.Home {
+  text-align: center;
+}
+.Home ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .App {
   color: whitesmoke;
   font-family: "Mohave", sans-serif;
