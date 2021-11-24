@@ -23,6 +23,8 @@ $main-width: 60ch;
     position: relative;
     max-width: 8.5in;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 
     @media (orientation: portrait) {
       padding: 0 1em;
