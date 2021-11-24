@@ -185,6 +185,7 @@ h2 {
 
 .Pong #myCanvas {
   background: black;
+  box-shadow: 0 0 0 1px grey;
 }
 .Pong .player-input {
   position: absolute;
