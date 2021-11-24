@@ -1,12 +1,24 @@
-#myCanvas { 
-  background: black;
-}
+.Pong {
+  #myCanvas { 
+    background: black;
+  }
+  
+  .player-input {
+    position: absolute;
+    left: calc(50% + 5px);
+    background-color: hsla(0, 0%, 100%, 0);
+    color: hsl(0, 0%, 80%);
+    border: none;
+    border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+  }
 
-.player-input {
-  position: absolute;
-  left: calc(50% + 5px);
-  background-color: hsla(0, 0%, 100%, 0);
-  color: hsl(0, 0%, 80%);
-  border: none;
-  border-bottom: 1px solid hsla(0, 0%, 60%, 1);
+  .instructions {
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
 }

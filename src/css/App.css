@@ -183,17 +183,24 @@ h2 {
   color: #cc00cc;
 }
 
-#myCanvas {
+.Pong #myCanvas {
   background: black;
 }
-
-.player-input {
+.Pong .player-input {
   position: absolute;
   left: calc(50% + 5px);
   background-color: rgba(255, 255, 255, 0);
   color: #cccccc;
   border: none;
   border-bottom: 1px solid #999999;
+}
+.Pong .instructions {
+  display: flex;
+  justify-content: space-around;
+}
+.Pong .instructions ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .Home {

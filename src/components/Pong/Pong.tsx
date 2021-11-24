@@ -328,7 +328,7 @@ const Pong = () => {
   }
   
   return (
-    <>
+    <div className="Pong">
       <canvas 
         id="myCanvas" 
         width={canvasWidth} 
@@ -356,7 +356,23 @@ const Pong = () => {
         style={{ top: canvasHeight / 2 }}
       />
       ]}
-    </>
+      <div className="instructions">
+        <div className="instructions__player-1">
+          <h2>Player 1</h2>
+          <ul>
+            <li>W - Move left paddle up</li>
+            <li>S - Move left paddle down</li>
+          </ul>
+        </div>
+        <div className="instructions__player-2">
+          <h2>Player 2</h2>
+          <ul>
+            <li>▲ - Move right paddle up</li>
+            <li>▼ - Move right paddle down</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   )
 }
 
