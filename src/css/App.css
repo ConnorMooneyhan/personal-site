@@ -34,6 +34,7 @@
 .Header nav ul li {
   display: inline-block;
   padding: 0 1em;
+  flex: 1;
 }
 .Header nav ul li a {
   text-decoration: none;
@@ -44,7 +45,7 @@
     padding: 0;
   }
 }
-@media (orientation: portrait) {
+@media (max-width: 950px) {
   .Header nav ul {
     display: flex;
     flex-direction: column;
