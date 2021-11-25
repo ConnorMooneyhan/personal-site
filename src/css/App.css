@@ -75,14 +75,6 @@ h2 {
   justify-content: flex-end;
   align-items: center;
 }
-.Footer p {
-  margin: 1em;
-  color: #021631;
-}
-.Footer p a:first-child {
-  color: inherit;
-  text-decoration: none;
-}
 .Footer .Footer__contact-info {
   margin: 0;
   list-style: none;
@@ -110,6 +102,15 @@ h2 {
 .Footer .Footer__contact-info li a > * {
   color: #021631;
   font-size: 36px;
+}
+.Footer p {
+  margin: 1em;
+  color: #021631;
+  text-align: center;
+}
+.Footer p a:first-child {
+  color: inherit;
+  text-decoration: none;
 }
 
 @keyframes fade-in {
