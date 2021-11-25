@@ -53,11 +53,12 @@
           &:hover {
             background: color.adjust($accent-color-1, $alpha: -0.5);
           }
+
+          @media (orientation: portrait) {
+            padding: .1em .2em;
+          }
         }
 
-        @media (orientation: portrait) {
-          padding: 0;
-        }
       }
 
       @media (max-width: 950px) {
