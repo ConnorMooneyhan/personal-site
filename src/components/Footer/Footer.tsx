@@ -12,10 +12,10 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             data-tooltip="LinkedIn"
-          >
+            >
             <FontAwesomeIcon 
               icon={faLinkedin}
-            />
+              />
           </a>
         </li>
         <li>
@@ -24,23 +24,24 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
             data-tooltip="GitHub" 
-          >
+            >
             <FontAwesomeIcon 
               icon={faGithub} 
-            />
+              />
           </a>
         </li>
         <li>
           <a 
             href="mailto:connmoo@gmail.com"
             data-tooltip="connmoo@gmail.com"
-          >
+            >
             <FontAwesomeIcon 
               icon={faEnvelope}  
-            />
+              />
           </a>
         </li>
       </ul>
+      <p>Website <a href="https://github.com/ConnorMooneyhan/ConnorMooneyhan.github.io" target="_blank" rel="noreferrer">source code</a>: <a href="https://github.com/ConnorMooneyhan/ConnorMooneyhan.github.io" target="_blank" rel="noreferrer">https://github.com/ConnorMooneyhan/ConnorMooneyhan.github.io</a></p>
     </footer>
   );
 }
