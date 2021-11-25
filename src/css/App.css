@@ -47,7 +47,7 @@
 .Header nav ul li a:hover {
   background: rgba(0, 169, 180, 0.5);
 }
-@media (orientation: portrait) {
+@media (max-width: 950px) {
   .Header nav ul li a {
     padding: 0.1em 0.2em;
   }

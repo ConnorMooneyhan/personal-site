@@ -54,7 +54,7 @@
             background: color.adjust($accent-color-1, $alpha: -0.5);
           }
 
-          @media (orientation: portrait) {
+          @media (max-width: 950px) {
             padding: .1em .2em;
           }
         }
