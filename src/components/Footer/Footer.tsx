@@ -15,7 +15,7 @@ const Footer = () => {
             >
             <FontAwesomeIcon 
               icon={faLinkedin}
-              />
+            />
           </a>
         </li>
         <li>
@@ -27,7 +27,7 @@ const Footer = () => {
             >
             <FontAwesomeIcon 
               icon={faGithub} 
-              />
+            />
           </a>
         </li>
         <li>
@@ -37,7 +37,7 @@ const Footer = () => {
             >
             <FontAwesomeIcon 
               icon={faEnvelope}  
-              />
+            />
           </a>
         </li>
       </ul>

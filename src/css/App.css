@@ -101,6 +101,7 @@ h2 {
   animation: fade-in 50ms linear forwards;
 }
 .Footer .Footer__contact-info li a > * {
+  color: #021631;
   font-size: 36px;
 }
 
