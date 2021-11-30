@@ -26,6 +26,11 @@ $main-width: 60ch;
     display: flex;
     flex-direction: column;
 
+    h2 {
+      font-weight: 500;
+      font-size: 2em;
+    }
+
     @media (orientation: portrait) {
       padding: 0 1em;
     }

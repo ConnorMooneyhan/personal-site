@@ -27,7 +27,6 @@
   justify-content: flex-end;
 }
 .Header nav ul {
-  height: min-content;
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -260,6 +259,10 @@ h2 {
   margin: auto;
   display: flex;
   flex-direction: column;
+}
+.App main h2 {
+  font-weight: 500;
+  font-size: 2em;
 }
 @media (orientation: portrait) {
   .App main {
