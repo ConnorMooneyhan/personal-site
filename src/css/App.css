@@ -228,7 +228,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
-.Home h2 {
+.Home .intro-header {
   font-size: 64px;
   font-weight: 300;
   margin-top: -27px;
