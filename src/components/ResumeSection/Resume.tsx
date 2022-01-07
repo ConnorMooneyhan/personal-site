@@ -45,9 +45,9 @@ const Resume = () => {
               <h3>Departmental Secretary</h3>
               <h4><em>Cone Health, Offsite Distribution Center, Greensboro, NC</em></h4>
               <ul>
+                <li>Developed query generation tool that enabled easier access to vital departmental data.</li>
                 <li>Created and maintained data-collection tools that demonstrated a need for a larger workforce, leading to the hiring of 3 new employees.</li>
                 <li>Improved department-wide understanding of Voxware software after careful examination of documentation.</li>
-                <li>Organized courier deliveries and time-sensitive product requests for 5 hospitals and 100+ physician practices.</li>
               </ul>
             </div>
           </div>
