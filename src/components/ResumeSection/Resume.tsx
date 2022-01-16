@@ -129,7 +129,7 @@ const Resume = () => {
     </div>
     <div>
       <section>
-        <h2 >Skills</h2>
+        <h2 className="Resume__section__heading">Skills</h2>
         <ul className="Resume__skills-list">
           <li>JS / TS</li>
           <li>React</li>
@@ -146,7 +146,7 @@ const Resume = () => {
         </ul>
       </section>
       <section>
-        <h2 >Relevant Work Experience</h2>
+        <h2 className="Resume__section__heading">Relevant Work Experience</h2>
         <div className="Resume__section__item">
           <h3 >Departmental Secretary</h3>
           <h4><em>Cone Health, Offsite Distribution Center, Greensboro, NC</em></h4>
@@ -171,7 +171,7 @@ const Resume = () => {
         </div>
       </section>
       <section>
-        <h2 >Education</h2>
+        <h2 className="Resume__section__heading">Education</h2>
         <div className="Resume__section__item">
           <h3 >Mathematics, Bachelor of Science with Honors</h3>
           <h4><em>Florida State University, Tallahassee, FL</em></h4>
@@ -183,7 +183,7 @@ const Resume = () => {
         </div>
       </section>
       <section>
-        <h2 >Projects</h2>
+        <h2 className="Resume__section__heading">Projects</h2>
         <div className="Resume__section__item">
           <h3>Pong • <span className="Resume__repo-link"><a href="https://github.com/ConnorMooneyhan/pong" target="_blank"><em>https://github.com/ConnorMooneyhan/pong</em></a></span></h3>
           <p>Utilizes the Canvas API to implement a classic game of Pong in the browser.</p>

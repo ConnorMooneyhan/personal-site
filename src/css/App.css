@@ -140,6 +140,10 @@ h2 {
   padding-left: 0;
   grid-template-columns: repeat(4, 1fr);
 }
+.Resume .Resume__section__heading {
+  font-size: 27px;
+  font-weight: 600;
+}
 .Resume h2,
 .Resume h3,
 .Resume h4,
