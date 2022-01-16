@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" section__item__content="IE=edge">
+  <meta name="viewport" section__item__content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+  <title>Resume</title>
+  <style>
+    html {
+      width: 8.5in; height: 11in;
+    }
+
+    body {
+      margin: 0;
+      height: 100%;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Arimo", sans-serif;
+      line-height: 1.1;
+      padding: 0 2em;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    .skills-list {
+      display: grid;
+      list-style-type: none;
+      padding-left: 0;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .section__item p {
+      margin: 0.5em 0;
+    }
+
+    ul {
+      margin: 0;
+    }
+
+    .repo-link {
+      font-weight: 400;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Connor Mooneyhan</h1>
+    <p>5403 Friendly Manor Dr., Apt. A, Greensboro, NC 27410 | (850) 509-2322 | connmoo@gmail.com | <a href="https://github.com/ConnorMooneyhan" target="_blank">https://github.com/ConnorMooneyhan</a></p>
+  </header>
+  <main>
+    <!-- SKILLS -->
+    <section>
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills-list">
+        <li>JS / TS</li>
+        <li>React</li>
+        <li>SASS</li>
+        <li>HTML5 / CSS3</li>
+        <li>Git / GitHub</li>
+        <li>WordPress</li>
+        <li>PHP</li>
+        <li>Linux</li>
+        <li>Rust</li>
+        <li>GitHub Projects</li>
+        <li>Webpack</li>
+        <li>REST</li>
+      </ul>
+    </section>
+    <!-- RELEVANT WORK EXPERIENCE -->
+    <section>
+      <h2 class="section__title">Relevant Work Experience</h2>
+      <div class="section__item">
+        <h3 class="section__item__heading">Departmental Secretary</h3>
+        <h4><em>Cone Health, Offsite Distribution Center, Greensboro, NC</em></h4>
+        <ul>
+          <li>Developed query generation tool using JavaScript that enabled easier access to vital departmental data.</li>
+          <li>Created and maintained data-collection tools in Microsoft Excel that demonstrated a need for a larger workforce, leading to the hiring of 3 new employees.</li>
+          <li>Improved department-wide understanding of Voxware software after careful examination of documentation.</li>
+        </ul>
+      </div>
+      <div class="section__item">
+        <h3 class="section__item__heading">Math Tutor</h3>
+        <h4><em>Tallahassee Community College, Tallahassee, FL</em></h4>
+        <ul>
+          <li>Tutored nearly 1000 students and received frequent 5-star ratings for clarity of explanation and patience.</li>
+          <li>Earned CRLA (College Reading and Learning Association) Level 2 certification, demonstrating mastery of tutoring practices and principles.</li>
+        </ul>
+        <h4><em>Private Tutoring, Tallahassee, FL</em></h4>
+        <ul>
+          <li>Advertised online and in-person to gain 15+ new students, many of whom returned for help in future courses.</li>
+          <li>Evaluated student performance and reported to parents of high-school tutees to recommended next steps and supplemental materials.</li>
+        </ul>
+      </div>
+    </section>
+    <!-- EDUCATION -->
+    <section>
+      <h2 class="section__title">Education</h2>
+      <div class="section__item">
+        <h3 class="section__item__heading">Mathematics, Bachelor of Science with Honors</h3>
+        <h4><em>Florida State University, Tallahassee, FL</em></h4>
+        <p>Relevant Coursework: Intro to C++ Programming</p>
+      </div>
+      <div class="section__item">
+        <h3 class="section__item__heading">Associate of Arts</h3>
+        <h4><em>Tallahassee Community College, Tallahassee, FL</em></h4>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section>
+      <h2 class="section__title">Projects</h2>
+      <div class="section__item">
+        <h3>Pong &#149 <span class="repo-link"><a href="https://github.com/ConnorMooneyhan/pong" target="_blank"><em>https://github.com/ConnorMooneyhan/pong</em></a></span></h3>
+        <p>Utilizes the Canvas API to implement a classic game of Pong in the browser.</p>
+      </div>
+      <div class="section__item">
+        <h3>Cellular Automata &#149 <span class="repo-link"><a href="https://github.com/ConnorMooneyhan/cellular-automata" target="_blank"><em>https://github.com/ConnorMooneyhan/cellular-automata</em></a></span></h3>
+        <p>Customizable tool for visualizing basic cellular automata. The "Favorites" section of this app demonstrates CRUD capabilities.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
