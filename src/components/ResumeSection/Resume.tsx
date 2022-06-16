@@ -4,7 +4,7 @@
 //       <div className="Resume__sidebar">
 //         <h1>Connor Mooneyhan</h1>
 //         <h2 className="Resume__sidebar__subtitle">Web Developer</h2>
-        
+
 //         <h2>Personal Info</h2>
 //         <h3>Email</h3>
 //         <p>connmoo@gmail.com</p>
@@ -33,7 +33,7 @@
 //         <p>Rust</p>
 //       </div>
 //       <div className="Resume__primary">
-//         <p>Highly-ambitious self-taught web developer with drive to deepen current 
+//         <p>Highly-ambitious self-taught web developer with drive to deepen current
 //         knowledge and develop new skills. Thorough understanding of mathematics with
 //         strong capacity for creative analytical thinking. Four years of experience
 //         collaborating and communicating effectively in a professional setting.</p>
@@ -122,79 +122,147 @@
 // }
 
 const Resume = () => {
-  return <div className="Resume">
-    <div className="Resume__header">
-      <h1>Connor Mooneyhan</h1>
-      <p>5403 Friendly Manor Dr., Apt. A, Greensboro, NC 27410 | (850) 509-2322 | connmoo@gmail.com | <a href="https://github.com/ConnorMooneyhan" target="_blank">https://github.com/ConnorMooneyhan</a></p>
+  return (
+    <div className="Resume">
+      <div className="Resume__header">
+        <h1>Connor Mooneyhan</h1>
+        <p>
+          5403 Friendly Manor Dr., Apt. A, Greensboro, NC 27410 | (850) 509-2322
+          | connmoo@gmail.com |{" "}
+          <a href="https://github.com/ConnorMooneyhan" target="_blank">
+            https://github.com/ConnorMooneyhan
+          </a>
+        </p>
+      </div>
+      <div>
+        <section>
+          <h2 className="Resume__section__heading">Skills</h2>
+          <ul className="Resume__skills-list">
+            <li>JS / TS</li>
+            <li>React</li>
+            <li>SASS</li>
+            <li>HTML5 / CSS3</li>
+            <li>Git / GitHub</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+            <li>Linux</li>
+            <li>Rust</li>
+            <li>GitHub Projects</li>
+            <li>Webpack</li>
+            <li>REST</li>
+          </ul>
+        </section>
+        <section>
+          <h2 className="Resume__section__heading">Relevant Work Experience</h2>
+          <div className="Resume__section__item">
+            <h3>Departmental Secretary</h3>
+            <h4>
+              <em>Cone Health, Offsite Distribution Center, Greensboro, NC</em>
+            </h4>
+            <ul>
+              <li>
+                Developed query generation tool using JavaScript that enabled
+                easier access to vital departmental data.
+              </li>
+              <li>
+                Created and maintained data-collection tools in Microsoft Excel
+                that demonstrated a need for a larger workforce, leading to the
+                hiring of 3 new employees.
+              </li>
+              <li>
+                Improved department-wide understanding of Voxware software after
+                careful examination of documentation.
+              </li>
+            </ul>
+          </div>
+          <div className="Resume__section__item">
+            <h3>Math Tutor</h3>
+            <h4>
+              <em>Tallahassee Community College, Tallahassee, FL</em>
+            </h4>
+            <ul>
+              <li>
+                Tutored nearly 1000 students and received frequent 5-star
+                ratings for clarity of explanation and patience.
+              </li>
+              <li>
+                Earned CRLA (College Reading and Learning Association) Level 2
+                certification, demonstrating mastery of tutoring practices and
+                principles.
+              </li>
+            </ul>
+            <h4>
+              <em>Private Tutoring, Tallahassee, FL</em>
+            </h4>
+            <ul>
+              <li>
+                Advertised online and in-person to gain 15+ new students, many
+                of whom returned for help in future courses.
+              </li>
+              <li>
+                Evaluated student performance and reported to parents of
+                high-school tutees to recommended next steps and supplemental
+                materials.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2 className="Resume__section__heading">Education</h2>
+          <div className="Resume__section__item">
+            <h3>Mathematics, Bachelor of Science with Honors</h3>
+            <h4>
+              <em>Florida State University, Tallahassee, FL</em>
+            </h4>
+            <p>Relevant Coursework: Intro to C++ Programming</p>
+          </div>
+          <div className="Resume__section__item">
+            <h3>Associate of Arts</h3>
+            <h4>
+              <em>Tallahassee Community College, Tallahassee, FL</em>
+            </h4>
+          </div>
+        </section>
+        <section>
+          <h2 className="Resume__section__heading">Projects</h2>
+          <div className="Resume__section__item">
+            <h3>
+              Pong •{" "}
+              <span className="Resume__repo-link">
+                <a
+                  href="https://github.com/ConnorMooneyhan/pong"
+                  target="_blank"
+                >
+                  <em>https://github.com/ConnorMooneyhan/pong</em>
+                </a>
+              </span>
+            </h3>
+            <p>
+              Utilizes the Canvas API to implement a classic game of Pong in the
+              browser.
+            </p>
+          </div>
+          <div className="Resume__section__item">
+            <h3>
+              Cellular Automata •{" "}
+              <span className="Resume__repo-link">
+                <a
+                  href="https://github.com/ConnorMooneyhan/cellular-automata"
+                  target="_blank"
+                >
+                  <em>https://github.com/ConnorMooneyhan/cellular-automata</em>
+                </a>
+              </span>
+            </h3>
+            <p>
+              Customizable tool for visualizing basic cellular automata. The
+              "Favorites" section of this app demonstrates CRUD capabilities.
+            </p>
+          </div>
+        </section>
+      </div>
     </div>
-    <div>
-      <section>
-        <h2 className="Resume__section__heading">Skills</h2>
-        <ul className="Resume__skills-list">
-          <li>JS / TS</li>
-          <li>React</li>
-          <li>SASS</li>
-          <li>HTML5 / CSS3</li>
-          <li>Git / GitHub</li>
-          <li>WordPress</li>
-          <li>PHP</li>
-          <li>Linux</li>
-          <li>Rust</li>
-          <li>GitHub Projects</li>
-          <li>Webpack</li>
-          <li>REST</li>
-        </ul>
-      </section>
-      <section>
-        <h2 className="Resume__section__heading">Relevant Work Experience</h2>
-        <div className="Resume__section__item">
-          <h3 >Departmental Secretary</h3>
-          <h4><em>Cone Health, Offsite Distribution Center, Greensboro, NC</em></h4>
-          <ul>
-            <li>Developed query generation tool using JavaScript that enabled easier access to vital departmental data.</li>
-            <li>Created and maintained data-collection tools in Microsoft Excel that demonstrated a need for a larger workforce, leading to the hiring of 3 new employees.</li>
-            <li>Improved department-wide understanding of Voxware software after careful examination of documentation.</li>
-          </ul>
-        </div>
-        <div className="Resume__section__item">
-          <h3 >Math Tutor</h3>
-          <h4><em>Tallahassee Community College, Tallahassee, FL</em></h4>
-          <ul>
-            <li>Tutored nearly 1000 students and received frequent 5-star ratings for clarity of explanation and patience.</li>
-            <li>Earned CRLA (College Reading and Learning Association) Level 2 certification, demonstrating mastery of tutoring practices and principles.</li>
-          </ul>
-          <h4><em>Private Tutoring, Tallahassee, FL</em></h4>
-          <ul>
-            <li>Advertised online and in-person to gain 15+ new students, many of whom returned for help in future courses.</li>
-            <li>Evaluated student performance and reported to parents of high-school tutees to recommended next steps and supplemental materials.</li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <h2 className="Resume__section__heading">Education</h2>
-        <div className="Resume__section__item">
-          <h3 >Mathematics, Bachelor of Science with Honors</h3>
-          <h4><em>Florida State University, Tallahassee, FL</em></h4>
-          <p>Relevant Coursework: Intro to C++ Programming</p>
-        </div>
-        <div className="Resume__section__item">
-          <h3 >Associate of Arts</h3>
-          <h4><em>Tallahassee Community College, Tallahassee, FL</em></h4>
-        </div>
-      </section>
-      <section>
-        <h2 className="Resume__section__heading">Projects</h2>
-        <div className="Resume__section__item">
-          <h3>Pong • <span className="Resume__repo-link"><a href="https://github.com/ConnorMooneyhan/pong" target="_blank"><em>https://github.com/ConnorMooneyhan/pong</em></a></span></h3>
-          <p>Utilizes the Canvas API to implement a classic game of Pong in the browser.</p>
-        </div>
-        <div className="Resume__section__item">
-          <h3>Cellular Automata • <span className="Resume__repo-link"><a href="https://github.com/ConnorMooneyhan/cellular-automata" target="_blank"><em>https://github.com/ConnorMooneyhan/cellular-automata</em></a></span></h3>
-          <p>Customizable tool for visualizing basic cellular automata. The "Favorites" section of this app demonstrates CRUD capabilities.</p>
-        </div>
-      </section>
-    </div>
-  </div>
-}
+  );
+};
 
 export default Resume;
