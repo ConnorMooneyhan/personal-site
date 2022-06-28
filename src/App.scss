@@ -5,6 +5,7 @@
 @use "./components/ResumeSection/ResumeSection";
 @use "./components/Pong/Pong";
 @use "./components/Home/Home";
+@use "./components/Spongebobify/Spongebobify";
 
 $main-width: 60ch;
 
@@ -17,7 +18,7 @@ $main-width: 60ch;
   flex-direction: column;
   background: #021631;
   line-height: 1.6;
-  
+
   main {
     flex: 1;
     position: relative;

@@ -1,0 +1,255 @@
+.Header {
+  padding: 1em 1em 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Header .img-container {
+  flex: 1;
+  display: flex;
+}
+.Header .img-container img {
+  border-radius: 50%;
+}
+.Header h1 {
+  flex-grow: 0;
+  font-weight: 400;
+  text-align: center;
+}
+.Header h1 > * {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.Header nav {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+.Header nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 24px;
+}
+.Header nav ul li {
+  display: inline-block;
+  flex: 1;
+}
+.Header nav ul li a {
+  padding: 1em;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 0.2em;
+  transition: background 100ms;
+}
+.Header nav ul li a:hover {
+  background: rgba(0, 169, 180, 0.5);
+}
+@media (max-width: 950px) {
+  .Header nav ul li a {
+    padding: 0.1em 0.2em;
+  }
+}
+@media (max-width: 950px) {
+  .Header nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: max-content;
+    padding: 0;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+
+.Footer {
+  background: linear-gradient(to right, #00a9b4, #71facb);
+  clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Footer .Footer__contact-info {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+.Footer .Footer__contact-info li {
+  display: inline-block;
+  padding: 0.2em;
+  position: relative;
+}
+.Footer .Footer__contact-info li a:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  font-size: 1em;
+  padding: 0 0.2em;
+  top: -1.1em;
+  right: calc(100% - 2.5em);
+  width: max-content;
+  color: black;
+  opacity: 0;
+  background: transparent;
+  animation: fade-in 50ms linear forwards;
+}
+.Footer .Footer__contact-info li a > * {
+  color: #021631;
+  font-size: 36px;
+}
+.Footer p {
+  margin: 1em;
+  color: #021631;
+  text-align: center;
+}
+.Footer p a:first-child {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+.Resume {
+  width: 8.5in;
+  height: 11in;
+  background: white;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Arimo", sans-serif;
+  line-height: 1.1;
+  padding: 0.5em 2em;
+}
+.Resume .Resume__header {
+  text-align: center;
+}
+.Resume .Resume__header h1 {
+  font-size: 32px;
+}
+.Resume .Resume__skills-list {
+  display: grid;
+  list-style-type: none;
+  padding-left: 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Resume .Resume__section__heading {
+  font-size: 27px;
+  font-weight: 600;
+}
+.Resume h2,
+.Resume h3,
+.Resume h4,
+.Resume h5,
+.Resume h6,
+.Resume .Resume__section__item p {
+  margin: 0.5em 0;
+  text-align: left;
+}
+.Resume ul {
+  margin: 0;
+}
+.Resume .Resume__repo-link {
+  font-weight: 400;
+}
+.Resume ~ p {
+  text-align: center;
+}
+.Resume ~ p a {
+  color: #00a9b4;
+}
+.Resume ~ p a:active,
+.Resume ~ p a:visited {
+  color: hsl(300deg, 100%, 40%);
+}
+
+.Pong #myCanvas {
+  background: black;
+  box-shadow: 0 0 0 1px grey;
+}
+.Pong .player-input {
+  position: absolute;
+  left: calc(50% + 5px);
+  background-color: hsla(0deg, 0%, 100%, 0);
+  color: hsl(0deg, 0%, 80%);
+  border: none;
+  border-bottom: 1px solid hsl(0deg, 0%, 60%);
+}
+.Pong .instructions {
+  display: flex;
+  justify-content: space-around;
+}
+.Pong .instructions ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.Home {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Home .intro-header {
+  font-size: 64px;
+  font-weight: 300;
+  margin-top: -27px;
+  margin-bottom: 0.5em;
+  line-height: 1.1;
+}
+.Home h3 {
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.Spongebobify {
+  background-color: #333;
+}
+
+.App {
+  color: whitesmoke;
+  font-family: "Mohave", sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: #021631;
+  line-height: 1.6;
+}
+.App main {
+  flex: 1;
+  position: relative;
+  max-width: 8.5in;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.App main h2 {
+  font-weight: 500;
+  font-size: 2em;
+}
+@media (orientation: portrait) {
+  .App main {
+    padding: 0 1em;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  padding: 0;
+}
+
+/*# sourceMappingURL=App.css.map */
