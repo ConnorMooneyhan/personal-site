@@ -1,3 +1,5 @@
 export default function Page() {
-  return <section></section>;
+  return (
+    <div></div>
+  )
 }
