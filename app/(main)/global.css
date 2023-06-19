@@ -1,0 +1,19 @@
+html {
+  font-family: Courier New, sans-serif;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
+
+#resume {
+  max-width: 800px;
+}
+
+nav a {
+  display: block;
+}
+
+footer svg {
+  width: 42px;
+}

@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <h1>Connor Mooneyhan</h1>
       <nav>
-        <Link href="/about-me">About Me</Link>
+        {/* <Link href="/about-me">About Me</Link> */}
         <Link href="/blog">Blog</Link>
       </nav>
     </header>
